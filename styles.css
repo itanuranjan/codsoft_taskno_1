@@ -1,0 +1,200 @@
+
+body, h1, h2, p {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.service{
+    text-align: center;
+    font-size: larger;
+    font-size: 30px;
+    padding: 0px 0px;
+    margin-top: 25px;
+    margin-bottom: -9px;
+}
+
+header {
+    text-align: center;
+    background-color: #ffffff;
+    color: #0b0707;
+    padding: 10px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo img {
+    width: 50px;
+    height: auto;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #0b0707;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 80px 0; 
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0;
+}
+.feature {
+    text-align: center;
+    width: 30%;
+    margin: 20px;
+}
+.feature img {
+    width: 94%; 
+    height: auto;
+}
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.feature p {
+    font-size: 16px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+}
+.about-content {
+    flex: 1;
+    padding: 0 20px;
+}
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.about p {
+    font-size: 18px;
+}
+
+.cta {
+    text-align: center;
+    padding: 40px 0;
+}
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+    padding: 30px 0;
+}
+.testimonial {
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.testimonial blockquote {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.testimonial cite {
+    font-size: 14px;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+footer ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+footer li {
+    display: inline;
+    margin-right: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+
